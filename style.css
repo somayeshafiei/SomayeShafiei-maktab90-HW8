@@ -63,8 +63,8 @@ body {
 }
 .main-section2-card {
   background-color: white;
-  width: 15rem;
-  padding: 2rem;
+  width: 20rem;
+  padding: 3rem 1.8rem;
 }
 .main-section2-card-h4 {
   margin-bottom: 3rem;
@@ -101,4 +101,25 @@ body {
 }
 .main-section4-p2 {
   font-size: 1.2rem;
+}
+/* ...............................footer......................... */
+.footer {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.footer-div1 {
+  width: 50%;
+}
+.footer-div1 p {
+  font-size: 1.1rem;
+}
+.footer-div2 {
+  width: 50%;
+}
+.footer-div2 span {
+  color: #2690d4;
 }
