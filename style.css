@@ -123,3 +123,38 @@ body {
 .footer-div2 span {
   color: #2690d4;
 }
+/* ............................responsive......................... */
+@media all and (max-width: 720px) {
+  .main-section1-div {
+    flex-direction: column;
+  }
+  .main-section2 {
+    flex-wrap: wrap;
+  }
+  .main-section4 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .main-section4-leftDiv,
+  .main-section4-righttDiv {
+    width: 100%;
+  }
+}
+@media all and (max-width: 409px) {
+  .header {
+    padding: 4rem;
+  }
+  .header-h1 {
+    font-size: 2.2rem;
+  }
+  .main-section2-card {
+    width: 30rem;
+  }
+  .main-section4-leftDiv,
+  .main-section4-righttDiv {
+    padding: 2rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
