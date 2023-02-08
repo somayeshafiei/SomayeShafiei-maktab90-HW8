@@ -1,0 +1,163 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.3;
+}
+/* ............................header.................... */
+.header {
+  background-color: #333333;
+  color: white;
+  padding: 4rem;
+}
+.header-h1 {
+  font-size: 2.2rem;
+}
+.header-p {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+.header-button {
+  background-color: inherit;
+  border: 0.01rem solid white;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+/* ............................main.......................... */
+.main-section1 {
+  padding: 2rem;
+  background-color: #eaeaea;
+}
+.main-section1-h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.main-section1-div {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.main-section2 {
+  background-color: #333333;
+  padding: 4rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-section2-card {
+  background-color: white;
+
+  padding: 3rem 1.8rem;
+}
+.main-section2-card-h4 {
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+}
+.main-section3 {
+  padding: 3rem;
+}
+.main-section3-h4 {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.main-section4 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.main-section4-leftDiv {
+  background-color: #2690d4;
+  width: 100%;
+  padding: 2.2rem;
+}
+.main-section4-righttDiv {
+  background-color: #333333;
+  width: 100%;
+  padding: 2.2rem;
+}
+.main-section4-h4 {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+}
+.main-section4-p1 {
+  margin-bottom: 2.5rem;
+  font-size: 1.2rem;
+}
+.main-section4-p2 {
+  font-size: 1.2rem;
+}
+/* ...............................footer......................... */
+.footer {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  align-items: center;
+  font-size: 1.1rem;
+  flex-direction: column;
+}
+.footer-div1 {
+  width: 50%;
+}
+.footer-div1 p {
+  font-size: 1.1rem;
+}
+.footer-div2 {
+  width: 50%;
+}
+.footer-div2 span {
+  color: #2690d4;
+}
+/* ............................responsive......................... */
+
+@media all and (min-width: 600px) {
+  .main-section1-div {
+    flex-direction: row;
+  }
+  .main-section2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .main-section2-card {
+    width: 26rem;
+  }
+  .main-section4 {
+    flex-direction: row;
+  }
+  .main-section4-leftDiv,
+  .main-section4-righttDiv {
+    padding: 3rem;
+  }
+}
+@media all and (min-width: 1024px) {
+  .main-section2-card-h4,
+  .main-section3-h4 {
+    font-size: 1.8rem;
+  }
+  .header {
+    padding: 8rem;
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
