@@ -8,8 +8,8 @@ const cb = function (elem1) {
   elem1.style.fontWeight = "bold";
 };
 function elemCreator(elem) {
-  const test = document.createElement(elem, cb);
+  const test = document.createElement(elem, callback);
   container.append(test);
-  cb(test);
+  callback(test);
 }
 elemCreator("div", cb);
