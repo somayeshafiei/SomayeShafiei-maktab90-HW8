@@ -8,5 +8,94 @@
 html,
 body {
   height: 100%;
+  width: 98vw;
+  /* overflow-x: hidden; */
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: cursive;
+}
+.main {
+  height: 100vh;
   width: 100%;
+  padding: 10rem 0;
+}
+
+.first {
+  width: 13rem;
+  height: 13rem;
+  background-color: #0f87e3;
+  position: fixed;
+  -webkit-border-radius: 0 0 0 133px;
+  -moz-border-radius: 0 0 0 133px;
+  border-radius: 0 0 0 133px;
+  top: -1px;
+  right: 0;
+  /* position: absolute;
+  top: -12.5rem;
+  right: -12.5rem;
+  background-color: rgb(9 132 226);
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%; */
+  /* border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  top: -1rem;
+  background-color: #1470c0;
+  right: -4rem;
+  position: absolute; */
+}
+/* .box-container {
+  width: 100%;
+} */
+.box-container {
+  height: 100%;
+  margin: 20rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4rem;
+  text-align: center;
+  gap: 6rem;
+}
+
+.box {
+  padding: 6rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-number {
+  padding: 2rem 3rem;
+  position: relative;
+  top: -8rem;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+
+  font-size: 3rem;
+}
+
+ion-icon {
+  font-size: 64px;
+  margin-bottom: 2rem;
+  color: #1470c0;
+}
+.box h1 {
+  margin-bottom: 1rem;
+}
+.second {
+  width: 13rem;
+  height: 13rem;
+  background-color: #0f87e3;
+  position: fixed;
+  -webkit-border-radius: 0 133px 0 0;
+  -moz-border-radius: 0 133px 0 0;
+  border-radius: 0 133px 0 0;
+  bottom: -1px;
+  left: 0;
+  z-index: 1;
 }
