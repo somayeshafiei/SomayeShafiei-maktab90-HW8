@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: cursive;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 10rem 0;
+}
+
+.first {
+  width: 13rem;
+  height: 13rem;
+  background-color: #0f87e3;
+  position: fixed;
+  -webkit-border-radius: 0 0 0 13.3rem;
+  -moz-border-radius: 0 0 0 13.3rem;
+  border-radius: 0 0 0 13.3rem;
+  top: -0.1rem;
+  right: 0;
+}
+
+.box-container {
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 4rem;
+  text-align: center;
+  gap: 6rem;
+}
+
+.box {
+  padding: 6rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box-number {
+  padding: 2rem 3rem;
+  position: relative;
+  top: -8rem;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+
+  font-size: 3rem;
+}
+
+ion-icon {
+  font-size: 64px;
+  margin-bottom: 2rem;
+  color: #1470c0;
+}
+.box h1 {
+  margin-bottom: 1rem;
+}
+.second {
+  width: 13rem;
+  height: 13rem;
+  background-color: #0f87e3;
+  position: fixed;
+  -webkit-border-radius: 0 13.3rem 0 0;
+  -moz-border-radius: 0 13.3rem 0 0;
+  border-radius: 0 13.3rem 0 0;
+  bottom: -0.1rem;
+  left: 0;
+}
+.last-div {
+  visibility: hidden;
+}
+
+@media all and (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 35rem;
+  }
+  .last-div {
+    display: none;
+  }
+}
